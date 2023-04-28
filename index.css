@@ -1,0 +1,191 @@
+* {
+    scroll-behavior: smooth;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #181b22;
+}
+
+header {
+    background-color: #1f2431;
+    justify-content: space-between;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    top: 0;
+}
+
+.logo {
+    padding: 12px 0 0 140px;
+    justify-content: left;
+    display: block;
+    height: 40px;
+    width: 80px;
+}
+
+@font-face {
+    font-family: AgencyFB;
+    src: url(fonts/AGENCYR.TTF);
+}
+
+
+nav {
+    padding: 20px 140px 0 0;
+    align-items: center;
+    display: flex;
+}
+
+nav ul {
+    justify-content: end;
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    font-family: 'AgencyFB';
+    font-size: 24pt;
+    list-style: none;
+}
+
+nav ul li a {
+    display: block;
+    list-style: none;
+    padding-left: 40px;
+    color: aliceblue;
+}
+
+nav ul li:hover {
+    -webkit-text-stroke: 0.5px #00ffff;
+    text-shadow: 0px 0px 4px #00ffff;
+}
+
+main {
+    display: flex;
+    margin: 140px 0px 160px 140px;
+}
+
+section {
+    width: 50%;
+}
+
+.div {
+    padding: 140px 0px 20px 0px;
+}
+
+div .firstc {
+    padding: 0px 0px 30px 0px;
+}
+
+h1 {
+    font-size: 36pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+h2 {
+    font-size: 24pt;
+    line-height: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+h3 {
+    font-size: 26pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+h4 {
+    font-size: 12pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #6d7996;
+}
+
+.section2 {
+    text-align: center;
+    padding-right: 40px;
+}
+
+div .secondc img {
+    height: 320px;
+    padding: 60px 0px 60px 0px;
+}
+
+.secth {
+    padding: 0px 0px 40px 0px;
+}
+
+.contact form .sndbox {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+div.contact {
+    width: 100%;
+    padding-right: 140px;
+}
+
+.contact form .sendbox1 input {
+    width: 47%;
+    color: grey;
+    background-color: #1f2431;
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.contact form .sendbox1 {
+    padding-bottom: 20px;
+}
+
+.contact form .sendbox2 input {
+    width: 95.3%;
+    color: grey;
+    background-color: #1f2431;
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.contact form .msg {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.contact form textarea {
+    width: 95.3%;
+    color: grey;
+    background-color: #1f2431;
+    border: none;
+    height: 160px;
+    border-radius: 10px;
+    padding-left: 10px;
+    resize: none;
+}
+
+.contact form div.button {
+    text-align: center;
+}
+
+.contact form .sendmsg {
+    width: 200px;
+    height: 60px;
+    color: white;
+    background-color: #1f2431;
+    border: none;
+    border-radius: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 28pt;
+}
+
+.contact form .sendmsg:hover {
+    color: #1f2431;
+    background-color: aqua;
+}
